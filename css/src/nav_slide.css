@@ -1,0 +1,25 @@
+#wrap { background-color: #faf; }
+
+#headBox { width: 100%; height: 50px; background-color: #fff; }
+
+#headBox h1 { width: 100px; height: 100px; float: left; background-color: #aaf; }
+
+#headBox nav { position: absolute; left: 0; right: 0; margin: auto; width: 1050px; height: auto; float: left; }
+
+#headBox nav ul { display: flex; justify-content: space-between; width: auto; height: auto; }
+
+#headBox nav ul li { width: 250px; height: auto; background-color: #ccc; }
+
+#headBox nav ul li dl { width: 100%; height: auto; background-color: #888; }
+
+#headBox nav ul li dl a { display: block; width: 100%; height: 100%; text-align: center; line-height: 50px; }
+
+#headBox nav ul li dl dt { width: 100%; height: 50px; background-color: #444; }
+
+#headBox nav ul li dl dt a:after, #headBox nav ul li dl dt a::after { content: " "; display: block; width: 0; height: 5px; transition: all 300ms ease; background-color: red; }
+
+#headBox nav ul li dl dt a.active::after { width: 250px; }
+
+#headBox nav ul li dl dd { display: none; margin-top: 5px; width: 100%; height: 50px; background-color: #222; }
+
+#headBox nav ul li dl dd.active { display: block; }
